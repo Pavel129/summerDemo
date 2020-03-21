@@ -22,7 +22,7 @@ class ViewController: UIViewController {
             case film1 = "Человек Паук"
             case film2 = "Алладин"
             case film3 = "Выборы"
-            case film3 = "Изменения мастера"
+            //case film3 = "Изменения мастера"
             
         }
         
@@ -51,8 +51,8 @@ class ViewController: UIViewController {
         alert.addAction(film3)
         
         
-        let film3 = UIAlertAction(title: Films.film3.rawValue, style: .default, handler: handler(.film3))
-            alert.addAction(film3)
+       // let film3 = UIAlertAction(title: Films.film3.rawValue, style: .default, handler: handler(.film3))
+       //     alert.addAction(film3)
         
         present(alert, animated: true, completion: nil)
         
